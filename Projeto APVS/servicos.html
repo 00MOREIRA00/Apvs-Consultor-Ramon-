@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>APVS</title>
+  </head>
+  <body>
+
+        <header><!--Inicio Cabeçalho-->
+          <nav class="navbar navbar-expand-sm">
+              <div class="container">
+          
+                  <a href="index.html" class="navbar-brand">
+                      <a href="">
+                        <img src="imagens/cool-background.svg" class="clear d-none d-md-block" id="fundo">
+                        <img src="imagens/APVS-Logo.png" id="logo">
+                      </a>
+                  </a>
+
+                  <button class="navbar-toggler navbar-light bg-light" data-toggle="collapse" data-target="#nav-principal">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="nav-principal">
+                      <ul class="navbar-nav ml-auto">
+
+                      <li class="nav-item">
+                          <a href="" class="nav-link texto">HOME</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="" class="nav-link texto">QUEM SOMOS</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="" class="nav-link texto">PARCEIROS</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="" class="nav-link texto">SERVIÇOS</a>
+                      </li>
+
+                    </ul>
+                  </div>
+              </div>
+          </nav>
+        </header><!--Fim do cabeçalho-->
+
+
+
+        <section class="work"><!--Inicio Texto-->
+          <h1 class="display-4" style="color: white; text-align: center;">Serviços</h1>
+
+          <p style="color: white;">A Apvs dispõe de uma gama de serviços em diversos aspectos para proporcionar aos seus assegurados, dentre as opções temos também para veículos de diversos portes, cada um com sua peculiaridade diferente, mas ambos com dedicação total da nossa asseguradora </p>
+        </section><!--Fim Texto-->
+
+
+
+
+        <section class="album"><!--Inicio do Album-->
+              <div class="col-md-3 tamanho "><!--Inicio Album 1-->
+            <div class="card shadow-sm">
+              <img class="camaro" src="imagens/carro.jpg">
+              <div class="card-body">
+                <h6 style="text-align: center">Carro</h6>
+                <p class="card-text">Tenha toda vantagem para o seu carro, com direito a todos os serviços necessários e fundamentais para o seu veiculo .</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button"  class="check btn btn-sm btn-outline-secondary">Saiba Mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-teste"><!--Inicio PopUp 1-->
+            <div class="popup">
+                <div class="popup-close">X</div>
+
+                <div class="popup-content">
+                    <h2>Benefícios</h2>
+                    <ul style="list-style: none; text-align: left;">
+                      <li>Roubo</li>
+                      <li>Furto</li>
+                      <li>Colisão</li>
+                      <li>Perda Total</li>
+                      <li>Incêndio</li>
+                      <li>Fenomenos da Natureza</li>
+                      <li>Terceiros</li>
+                      <li>Vidros</li>
+                      <li>Carro Reserva</li>
+                    </ul>
+                    <a class="popup-link btn btn-sm" href="https://wa.me/5521982072613">Faça Orçamento</a>
+                </div>
+            </div>
+        </div><!--Fim PopUp 1-->
+
+        <script>//Inicio JS PopUp 1
+        const button = document.querySelector('.check')
+        const popup = document.querySelector('.popup-teste')
+
+
+        button.addEventListener('click', () => {
+            popup.style.display = 'block'
+        })
+
+
+        popup.addEventListener('click', event  => {
+            const classNameofClickedElement = event.target.classList[0]
+            const shouldClosePopup = classNameofClickedElement === 'popup-close' || classNameofClickedElement === 'popup-link' || classNameofClickedElement === 'popup-wrapper' 
+
+
+            if (shouldClosePopup){
+                    popup.style.display = 'none'
+            }
+
+        })
+
+    </script><!--Fim JS PopUP 1-->
+    <!--Fim Album 1-->
+
+
+
+
+
+
+
+
+
+    
+           <div class="col-md-3 tamanho "><!--Inicio Album 2-->
+            <div class="card shadow-sm">
+              <img class="camaro" src="imagens/motao.jpg">
+              <div class="card-body">
+                <h6 style="text-align: center">Moto</h6>
+                <p class="card-text">Tenha toda vantagem para a sua moto, com direito a todos os serviços necessários e fundamentais para o seu veiculo .</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="botao btn btn-sm btn-outline-secondary">Saiba Mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!--Fim Album 2-->
+
+
+          <div class="pop-wrapper"><!--Inicio PopUp 2-->
+            <div class="propur">
+                <div class="pop-close">X</div>
+
+                <div class="pop-content">
+                    <h2>Benefícios</h2>
+                    <ul style="list-style: none; text-align: left;">
+                      <li>Roubo</li>
+                      <li>Furto</li>
+                      <li>Colisão</li>
+                      <li>Perda Total</li>
+                      <li>Incêndio</li>
+                      <li>Fenomenos da Natureza</li>
+                      <li>Terceiros</li>
+                      <li>Vidros</li>
+                      <li>Carro Reserva</li>
+                    </ul>
+                    <a class="pop-link btn btn-sm" href="https://wa.me/5521982072613">Faça Orçamento</a>
+                </div>
+            </div>
+        </div><!--Fim PopUp 2-->
+
+
+         <script>//Inicio JS PopUp 2
+            const bobotao = document.querySelector('.botao')
+            const propur = document.querySelector('.pop-wrapper')
+
+            bobotao.addEventListener('click', event => {
+                propur.style.display = 'block'
+            })
+
+            propur.addEventListener('click', event => {
+                const classClicked = event.target.classList[0]
+                const shouldPop = classClicked === 'pop-close' || classClicked === 'pop-link' || classClicked === 'pop-wrapper'
+
+                if (shouldPop) {
+                    propur.style.display = 'none'
+                }
+            })
+
+        </script><!--Fim JS PopUP 2-->
+        <!--Fim Album 2-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <div class="col-md-3 tamanho "><!--Inicio Album 3-->
+            <div class="card shadow-sm">
+              <img class="camaro" src="imagens/caminhao.png">
+              <div class="card-body">
+                <h6 style="text-align: center">Caminhão</h6>
+                <p class="card-text">Tenha toda vantagem para o seu caminhão, com direito a todos os serviços necessários e fundamentais para o seu veiculo .</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="bott btn btn-sm btn-outline-secondary">Saiba Mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!--Fim Album 3-->
+        </section><!--Fim Album-->
+              
+
+
+        <div class="p-wrapper"><!--Inicio PopUp 3-->
+            <div class="up">
+                <div class="p-close">X</div>
+
+                <div class="p-content">
+                    <h2>Benefícios</h2>
+                    <ul style="list-style: none; text-align: left;">
+                      <li>Roubo</li>
+                      <li>Furto</li>
+                      <li>Colisão</li>
+                      <li>Vidros</li>
+                    </ul>
+                    <a class="p-link btn btn-sm" href="https://wa.me/5521982072613">Faça Orçamento</a>
+                </div>
+            </div>
+        </div><!--Fim PopUp 3-->
+
+
+          <script>//Inicio JS PopUp 3
+              const bott = document.querySelector('.bott')
+              const up = document.querySelector('.p-wrapper')
+
+
+              bott.addEventListener('click', () => {
+                  up.style.display = 'block'
+              })
+
+
+              up.addEventListener('click', event  => {
+                  const clicked = event.target.classList[0]
+                  const should = clicked === 'p-close' || clicked === 'p-link' || clicked === 'p-wrapper' 
+
+
+                  if (should){
+                          up.style.display = 'none'
+                  }
+
+              })
+
+          </script><!--Fim JS PopUP 3-->
+          <!--Fim Album 3-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr style=" z-index: 5; border-color: white; ">
+
+        <footer><!--Inicio Rodapé-->
+                <div class="container"><!--Inicio Container-->
+                  <div class="row"><!--Inicio Row-->
+
+                    <div class="col-md-4 d-flex"><!--Inicio APVS-->
+                      <h1 class="apvs">APVS</h1>
+                    </div><!--Fim APVS-->
+
+                    <div class="col-md-2 fa-2x"><!--Inicio Facebook-->
+                        <h6 class="facebook d-none d-md-block">FACEBOOK</h6>
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fab fa-facebook-square iconfacebook"></i></a>
+                    </div><!--Fim Facebook-->
+
+                    <div class="col-md-2 fa-2x"><!--Inicio Twitter-->
+                      <h6 class="twitter d-none d-md-block">TWITTER</h6>
+                      <a href="https://twitter.com/"><i class="fab fa-twitter-square icontwitter"></i></a>
+                    </div><!--Fim Twitter-->
+
+                    <div class="col-md-2 fa-2x"><!--Inicio Instagram-->
+                      <h6 class="instagram d-none d-md-block">INSTAGRAM</h6>
+                      <a href="https://www.instagram.com/"><i class="fab fa-instagram iconinstagram"></i></a>                  
+                    </div><!--Fim Instagram-->
+
+
+                    <div class="col-md-2 fa-2x"><!--Inicio Linkedin-->
+                      <h6 class="linkedin d-none d-md-block">LINKEDIN</h6>
+                      <a href="https://www.linkedin.com/"><i class="fab fa-linkedin iconlinkedin"></i></a>
+                    </div><!--Fim Linkedin-->
+
+                  </div><!--Fim Row-->
+
+                  <p align="center" style="color: white;">Copyright &copy; Roberto Neto 03TN - Todos os direitos reservados</p>
+
+                </div><!--Fim Container-->
+            </footer><!--Fim Rodapé-->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
