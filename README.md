@@ -9,7 +9,13 @@ Site de divulgação para um corretor de seguros, o site tem por objetivo divulg
 <br>
 <br>
 
+<h1>Quem Somos</h1>
+<p>Nossa página quem fala um pouco sobre a historia da instituição, enfatizando a satisfação do cliente com a instituição </p>
+
 ![quemsomos](https://user-images.githubusercontent.com/85044936/148832340-8e497c9f-a3cc-4c48-b280-7d001e9efe9e.gif)
+
+<br>
+<br>
 
 ![parceiros](https://user-images.githubusercontent.com/85044936/148832373-c746e2c0-9b1b-4e50-b797-380c12f1f81d.gif)
 
