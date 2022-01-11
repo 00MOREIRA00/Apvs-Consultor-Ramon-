@@ -10,13 +10,22 @@ Site de divulgação para um corretor de seguros, o site tem por objetivo divulg
 <br>
 
 <h1>Quem Somos</h1>
-<p>Nossa página quem fala um pouco sobre a historia da instituição, enfatizando a satisfação do cliente com a instituição </p>
+<p>Nossa página que fala um pouco sobre a historia da instituição, enfatizando a satisfação do cliente com a instituição </p>
 
 ![quemsomos](https://user-images.githubusercontent.com/85044936/148832340-8e497c9f-a3cc-4c48-b280-7d001e9efe9e.gif)
 
 <br>
 <br>
 
+<h1>Parceiros</h1>
+<p>Essa página fala um pouco sobre as empresas parceiras da seguradora</p>
+
 ![parceiros](https://user-images.githubusercontent.com/85044936/148832373-c746e2c0-9b1b-4e50-b797-380c12f1f81d.gif)
+
+<br>
+<br>
+
+<h1>Serviços</h1>
+<p>Essa página se destina a falar sobre os serviços disponibilizados para cada tipo de veiculo, e também funciona como outra maneira de transferir o interessado para uma conversa direta com o corretor</p>
 
 ![servicos](https://user-images.githubusercontent.com/85044936/148832386-3a821a90-5f64-4400-aab0-a3fdd5fbe15a.gif)
